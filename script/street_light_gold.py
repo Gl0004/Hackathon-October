@@ -3,7 +3,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 # Configuration
-PARQUET_DIR = "../cleaned/street-light"  # Dossier où sont tes fichiers .parquet
+PARQUET_DIR = "../ cleaned/lamp_failure_detection"  # Dossier où sont tes fichiers .parquet
 MYSQL_HOST = "localhost"
 MYSQL_PORT = 3306
 MYSQL_USER = "root"

@@ -3,8 +3,8 @@ import pandas as pd
 import time
 
 # Paramètres
-source_csv = "../landing/street_light_fault_prediction_dataset.csv"  # CSV source complet
-output_dir = "../landing/street-light"
+source_csv = "../landing/lamp_failure_detection_dataset.csv"  # CSV source complet
+output_dir = "../landing/lamp_failure_detection"
 rows_per_event =8000  # nombre de lignes par fichier simulé
 interval_seconds = 8  # délai entre chaque "push" de fichier (en secondes)
 

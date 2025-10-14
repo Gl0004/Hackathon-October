@@ -5,7 +5,7 @@ from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
 SOURCE_DIR = "data/streaming_input"
-DEST_DIR = "../cleaned/street-light"
+DEST_DIR = "../cleaned/lamp_failure_detection"
 
 os.makedirs(DEST_DIR, exist_ok=True)
 
