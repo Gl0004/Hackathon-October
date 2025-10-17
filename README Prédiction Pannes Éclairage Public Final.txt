@@ -245,14 +245,3 @@ bulb_number,timestamp,power_consumption (Watts),voltage_levels (Volts),current_f
 1,2023-12-27 06:32:12,98.65,219.99,3.35,65.666823,2023-12-30 00:12:08.963333333,Moyen
 ...
 ```
-
----
-
-# Download the README file
-readme_path = '/mnt/data/prediction_pannes_eclairage_public_README.txt'
-
-# Write the content into a text file
-with open(readme_path, 'w', encoding='utf-8') as f:
-    f.write(readme_content)
-
-readme_path
